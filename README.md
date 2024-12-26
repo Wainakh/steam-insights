@@ -1,14 +1,31 @@
-# Steam Catalog Insights (October 2024)
-This repository contains CSV files exported from a SQL database of video game data, covering categories, descriptions, game details, genres, promotional materials, reviews, SteamSpy insights, and tags.
+# Steam Catalog Insights (октябрь 2024 г.)
+Этот репозиторий содержит CSV-файлы, экспортированные из SQL-базы данных видеоигр. В них представлены данные о категориях, описаниях, деталях игр, жанрах, рекламных материалах, обзорах, SteamSpy-аналитике и тегах.
 
-## File Description
-Each CSV file corresponds to a table from the Steam catalog dataset. The files have been compressed into ZIP archives for easier download. You can unzip them and import these CSV files into any database or use them directly for data analysis.
+## Описание файлов
+Каждый CSV-файл соответствует таблице из набора данных Steam Catalog. Для удобства загрузки файлы упакованы в ZIP-архивы. После распаковки их можно импортировать в любую базу данных или использовать напрямую для анализа данных.
 
-- **games.csv**: Main table containing details about the games, such as title, release date, and other metadata.
-- **genres.csv**: Genres assigned to each game.
-- **tags.csv**: Tags associated with each game, such as "Indie", "Action", etc.
-- **reviews.csv**: Review data for the games, including Steam ratings and review counts.
-- **steamspy_insights.csv**: Insights gathered from SteamSpy, such as estimated sales, playtime, and more.
-- **descriptions.csv**: Full and summary text descriptions of each game.
-- **promotional.csv**: Links and metadata for promotional materials, such as trailers and screenshots.
-- **categories.csv**: Information about the different Steam categories that games belong to (e.g., "Single-player", "Full controller support", etc.).
+- **games.csv**: Основная таблица с деталями об играх, включая название, дату выпуска и другую метаинформацию.
+- **genres.csv**: Жанры, присвоенные каждой игре.
+- **tags.csv**: Теги, связанные с каждой игрой, например "Инди", "Экшен" и т. д.
+- **reviews.csv**: Данные об обзорах игр, включая рейтинги Steam и количество рецензий.
+- **steamspy_insights.csv**: Аналитика, собранная с помощью SteamSpy, например, оценки продаж, время игры и многое другое.
+- **descriptions.csv**: Полные и краткие текстовые описания каждой игры.
+- **promotional.csv**: Ссылки и метаданные на рекламные материалы, такие как трейлеры и скриншоты.
+- **categories.csv**: Информация о различных категориях Steam, к которым относятся игры (например, "Однопользовательская", "Полная поддержка контроллера" и т. д.).
+
+## Визуализация некоторых графиков
+- [Игры, выпущенные по годам](https://public.flourish.studio/visualisation/20221119/)
+- [Частота слов в названиях](https://public.flourish.studio/visualisation/20054087/)
+- [Игры с подавляюще положительными отзывами](https://public.flourish.studio/visualisation/20221305/)
+- [Игры с подавляюще отрицательными отзывами](https://public.flourish.studio/visualisation/20221377/)
+- [Парные сочетания жанров](https://public.flourish.studio/visualisation/20059232/)
+- [Темы](https://public.flourish.studio/visualisation/20221430/)
+- [Парные сочетания жанров и тем](https://public.flourish.studio/visualisation/20073344/)
+- [Парные сочетания жанров и измерений](https://public.flourish.studio/visualisation/20074409/)
+- [Парные сочетания жанров и перспектив](https://public.flourish.studio/visualisation/20074514/)
+- [Изменение измерений со временем](https://public.flourish.studio/visualisation/20221523/)
+- [Женские протагонисты](https://public.flourish.studio/visualisation/20255396/)
+- [LGBTQ+](https://public.flourish.studio/visualisation/20255422/)
+- [Roguelike Deckbuilders (выпуски)](https://public.flourish.studio/visualisation/20238203/)
+- [Roguelike Deckbuilders (обзоры)](https://public.flourish.studio/visualisation/20238521/)
+- [Roguelike Deckbuilders (топ-20)](https://public.flourish.studio/visualisation/20238736/)
